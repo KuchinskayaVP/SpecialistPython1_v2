@@ -17,8 +17,17 @@
 ### Решение задачи
 
 ```python
-# TODO: you code here...
-```
+# TODO: 
+import math
+flat = int(input("Введите номер квартиры: "))
+
+
+#floor=(flat-1)//5+1
+
+floor= math.ceil(flat/5)
+
+
+print("Квартира номер", flat, "на", floor, "этаже")
 
 ---
 
