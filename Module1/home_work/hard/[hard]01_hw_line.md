@@ -18,10 +18,18 @@
 
 ```python
 seconds = int(input("Прошло секунд: "))
-# TODO: you code here...
-```
+# TODO: 
+seconds=int(input("Прошло секунд: "))
 
----
+days=abs(seconds)//86400
+hours=abs(seconds)//3600
+minutes=abs(seconds)%60
+second=abs(seconds)%60
+
+
+print(days ,"дней", hours, "часов", minutes, "минут",second , "секунд" )
+
+#я попробовала, не могу разобраться как исправить---
 
 ### Данные для самопроверки
 |   seconds   |  |   result   |
